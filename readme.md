@@ -24,7 +24,7 @@ Early Stopping , Best Validation loss checkpoints.
 
 ## Datasets
 
-Datasets folder contain the Train|Validation|Test split on the dataset.
+Datasets folder contain the Train / Validation / Test split on the dataset.
 
 ## Test Examples
 
