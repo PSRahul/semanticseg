@@ -14,7 +14,7 @@ A U-Net based neural network was trained from scratch using Pytorch Lightning wr
 The dropout probability was varied to optimise the network.
 
 ### Optimiser 
-Adam with the default learning rate of 10e-3.
+Adam with the default learning rate of 1<sup>-3</sup>.
 
 ### Loss   
 Cross Entropy Loss of classified pixel labels and ground data.
@@ -31,15 +31,15 @@ Datasets folder contain the Train|Validation|Test split on the dataset.
 The **tester.ipynb** contain the testing notebook and can be used to generate more test samples. 
 Some of the best test examples are in Sample Images folder.
 
-![Sample 1](sample_images/1.png?raw=true "Sample 1")  
-![Sample 2](sample_images/2.png?raw=true "Sample 1")
+Sample1            |  Sample 2
+:-------------------------:|:-------------------------:
+![](sample_images/1.png)  |  ![](sample_images/2.png)
 
 ## Tensorboard 
 
 Loss values can be found in the tensorboard logs.
-To run
+
 > tensorboard --logdir runs/
 
 ## Model Checkpoints
-
-Early Stopping Checkpoint are saved in **CKPT** folder
+Model weight checkpoints are saved in **CKPT** folder
